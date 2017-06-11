@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href= "css/bootstrap.css" rel= "stylesheet" type= "text/css">
+    <link href = "css/styles.css" rel= "stylesheet" type= "text/css">
+    <script src= "js/jquery-3.2.1.js"></script>
+    <script src= "js/script.js"></script>
     <title>cooking units converter</title>
   </head>
   <body>
-    <h1>Cooking Units Converter</h1>
-    <script src="js/script.js"></script>
+    <div class="container">
+      <h1>Cooking Converter</h1>
+      <p>Convert all your cooking measurements with ease</p>
+
+      <h2>Convert oz to ml</h2>
+      <form id="millilitre">
+        <div class="form-group">
+          <label for="oz">Add oz here:</label>
+          <input id="oz" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div class="output">
+      </div>
+
+      <h2>Convert kg to lbs</h2>
+      <form id="lbs">
+        <div class="form-group">
+          <label for="kg">Add kg here:</label>
+          <input id="kg" class="form-control" type="text">
+        </div>
+          <button type="submit" class="btn">Add!</button>
+      </form>
+      <div class="output1">
+      </div>
+
+    </div>
   </body>
 </html>
